@@ -37,3 +37,14 @@ powershell -Command "Expand-Archive -Path 'pump_radar-Static.zip' -DestinationPa
 cd /d C:\Users\dan.mina\pump_radar-Static-main\algo_lab
 run_report_once.bat
 ```
+
+Dacă și varianta ZIP eșuează, atunci PC-ul tău nu are acces la GitHub.
+În cazul ăsta:
+1) folosești altă conexiune (hotspot) SAU alt PC,
+2) descarci ZIP repo,
+3) copiezi folderul pe PC-ul tău în `C:\Users\dan.mina\pump_radar-Static`,
+4) rulezi:
+```bat
+cd /d C:\Users\dan.mina\pump_radar-Static\algo_lab
+run_report_once.bat
+```

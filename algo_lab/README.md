@@ -16,6 +16,7 @@ run_report_once.bat
 Dacă `git clone` nu poate conecta la `github.com:443`, folosește:
 - `algo_lab/diagnose_github_windows.bat`
 - sau varianta ZIP din `RUN_ME_FIRST.md`.
+- dacă nici ZIP nu merge, nu ai acces internet la GitHub de pe acel PC (folosește altă conexiune sau copiere manuală folder).
 
 ## Unde este repo-ul acum
 - Repo local în acest mediu: `/workspace/pump_radar`
