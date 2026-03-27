@@ -1,6 +1,12 @@
 # RUN ME FIRST (2 comenzi)
 
 ## Windows (CMD) - de la zero
+Înainte de toate, verifică Python:
+```bat
+python --version
+```
+Dacă primești `not recognized`, instalează Python (python.org) cu opțiunea **Add python.exe to PATH**.
+
 ```bat
 cd /d C:\Users\dan.mina
 git clone https://github.com/gicamitica/pump_radar-Static.git

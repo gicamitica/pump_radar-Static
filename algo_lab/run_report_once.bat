@@ -1,9 +1,20 @@
 @echo off
 setlocal
-cd /d %~dp0\backend
+set "ROOT=%~dp0"
+cd /d "%ROOT%backend" || (
+  echo [ERROR] Cannot find backend folder at "%ROOT%backend"
+  exit /b 1
+)
+
+where py >nul 2>nul
+if %errorlevel%==0 (
+  set "PY_CMD=py"
+) else (
+  set "PY_CMD=python"
+)
 
 if not exist .venv (
-  py -m venv .venv
+  %PY_CMD% -m venv .venv
 )
 
 call .venv\Scripts\activate.bat

@@ -17,6 +17,7 @@ Dacă `git clone` nu poate conecta la `github.com:443`, folosește:
 - `algo_lab/diagnose_github_windows.bat`
 - sau varianta ZIP din `RUN_ME_FIRST.md`.
 - dacă nici ZIP nu merge, nu ai acces internet la GitHub de pe acel PC (folosește altă conexiune sau copiere manuală folder).
+- dacă apare `py is not recognized`, scripturile folosesc fallback pe `python`; trebuie să existe `python` în PATH.
 
 ## Unde este repo-ul acum
 - Repo local în acest mediu: `/workspace/pump_radar`
