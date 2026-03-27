@@ -2,6 +2,17 @@
 
 Mini aplicație separată pentru testarea și calibrarea algoritmului de semnal.
 
+> Dacă vrei varianta ultra-scurtă: vezi `algo_lab/RUN_ME_FIRST.md`.
+
+## Dacă ai repo pe GitHub și NU ai folder local
+Rulezi întâi clone, apoi scriptul:
+```bat
+cd /d C:\Users\dan.mina
+git clone https://github.com/gicamitica/pump_radar-Static.git
+cd /d C:\Users\dan.mina\pump_radar-Static\algo_lab
+run_report_once.bat
+```
+
 ## Unde este repo-ul acum
 - Repo local în acest mediu: `/workspace/pump_radar`
 - Folderul aplicației cerute: `/workspace/pump_radar/algo_lab`

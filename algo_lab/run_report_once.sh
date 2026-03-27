@@ -11,6 +11,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 cd "$ROOT_DIR"
-python3 reporter/hourly_reporter.py --once --require-ai
+python3 reporter/hourly_reporter.py --once
 
 echo "Report: $ROOT_DIR/reports/output/latest.xlsx"
