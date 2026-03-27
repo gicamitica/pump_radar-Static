@@ -13,6 +13,10 @@ cd /d C:\Users\dan.mina\pump_radar-Static\algo_lab
 run_report_once.bat
 ```
 
+Dacă `git clone` nu poate conecta la `github.com:443`, folosește:
+- `algo_lab/diagnose_github_windows.bat`
+- sau varianta ZIP din `RUN_ME_FIRST.md`.
+
 ## Unde este repo-ul acum
 - Repo local în acest mediu: `/workspace/pump_radar`
 - Folderul aplicației cerute: `/workspace/pump_radar/algo_lab`
